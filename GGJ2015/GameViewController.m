@@ -36,7 +36,7 @@
     SCNNode *ambientLightNode = [SCNNode node];
     ambientLightNode.light = [SCNLight light];
     ambientLightNode.light.type = SCNLightTypeAmbient;
-    ambientLightNode.light.color = [UIColor darkGrayColor];
+    ambientLightNode.light.color = [UIColor whiteColor];
     [scene.rootNode addChildNode:ambientLightNode];
     
     // retrieve the ship node
